@@ -60,5 +60,5 @@ class Model(BaseModel):
     def split_string_values(cls, v):
         if isinstance(v, str):
             return v.split(",")
-        return v 
+        return v 0
 
